@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        tailwind.config = {
+            theme: {
+        extend: {
+      maxWidth : {
+        1600: '1600px'
+      },
+      width : {
+        w523: '510px'
+      },
+      fontFamily: {
+        railway : ['Railway'],
+        railwayBold : ['RalewayBold']
+      },
+      colors: {
+        'nteal': '#1de9b6'
+      }
+    }
+  }
+}
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex items-center justify-center flex-col mt-20">
+        <h1 class="main__title text-black font-railwayBold text-4xl text-black">Easy & Useful</h1>
+        <h2 class="main__subtitle font-railwayBold mt-2 text-gray-300 text-lg">Project Management Tool</h2>
+        <div class="md:w-w523 w-96">
+            <p class="main__text mt-2  text-gray-300 text-center text-sm">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            </p>
+        </div>
+    </div>
+    <div class="flex flex-col gap-10 pt-10">
+        <ul class="xl:flex-row flex-col flex flex-wrap xl:justify-between justify-center items-center ">
+            <li class="xl:w-96 w-full gap-10 flex items-center justify-center hover:shadow-2xl transition ease-in-out delay-200 ">
+                <div class="flex items-center flex-col">
+                    <img class="" src="icons/calendar.png" alt="list"/>
+                    <h2 class="font-railwayBold text-lg text-black mt-5">Title Goes Here</h2>
+                    <div class="w-4/5">
+                        <p class="text-center text-gray-400 opacity-60 text-sm mt-1 flex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="xl:w-96 w-full gap-10 flex items-center justify-center hover:shadow-2xl transition ease-in-out delay-200 ">
+                <div class="flex items-center flex-col">
+                    <img class="" src="icons/man.png" alt="list"/>
+                    <h2 class="font-railwayBold text-lg text-black mt-5">Title Goes Here</h2>
+                    <div class="w-4/5">
+                        <p class="text-center text-gray-400 opacity-60 text-sm mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="xl:w-96 w-full gap-10 flex items-center justify-center hover:shadow-2xl transition ease-in-out delay-200 ">
+                <div class="flex items-center flex-col">
+                    <img class="" src="icons/worker.png" alt="list"/>
+                    <h2 class="font-railwayBold text-lg text-black mt-5">Title Goes Here</h2>
+                    <div class="w-4/5">
+                        <p class="text-center text-gray-400 opacity-60 text-sm mt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="flex items-center justify-center">
+            <a class="bg-nteal p-3 rounded shadow-lg opacity-40 hover:opacity-100 ease-in-out transition delay-150" href="#">
+                <span class="text-white font-railwayBold">GET STARTED</span>
+            </a>
+        </div>
+    </div>
+    <ul class="flex md:flex-row flex-col flex-wrap items-center w-full pt-10">
+        <li class="lg:w-1/4 w-full pl-20 pr-20 pt-10 pb-10 bg-sky-400 flex items-center justify-center gap-3 cursor-pointer hover:scale-95 transition ease-in-out delay-200">
+            <div class="bg-white w-12 flex items-center justify-center p-3 rounded-full">
+                <img class="object-cover"src="icons/house.png" alt="house"/>
+            </div>
+            <div class="flex flex-col text-white font-railwayBold">
+                <span>12000+</span>
+                <span>Business</span>
+            </div>
+        </li>
+        <li class="lg:w-1/4 w-full pl-20 pr-20 pt-10 pb-10 bg-sky-700 flex items-center justify-center gap-3 cursor-pointer hover:scale-95 transition ease-in-out delay-200">
+            <div class="bg-white w-12 flex items-center justify-center p-3 rounded-full">
+                <img  src="icons/download.png" alt="house">
+            </div>
+            <div class="flex flex-col text-white font-railwayBold">
+                <span>60000+</span>
+                <span>Downloads</span>
+            </div>
+        </li>
+        <li class="lg:w-1/4 w-full pl-20 pr-20 pt-10 pb-10 bg-purple-600 flex items-center justify-center gap-3 cursor-pointer hover:scale-95 transition ease-in-out delay-200">
+            <div class="bg-white w-12 flex items-center justify-center p-3 rounded-full">
+                <img src="icons/person.png" alt="house">
+            </div>
+            <div class="flex flex-col text-white font-railwayBold">
+                <span>40000+</span>
+                <span>Pro Users</span>
+            </div>
+        </li>
+        <li class="lg:w-1/4 w-full pl-20 pr-20 pt-10 pb-10 bg-pink-400 flex items-center justify-center gap-3 cursor-pointer hover:scale-95 transition ease-in-out delay-200">
+            <div class="bg-white w-12 flex items-center justify-center p-3 rounded-full">
+                <img class="w-5"src="icons/download.png" alt="house">
+            </div>
+            <div class="flex flex-col  text-white font-railwayBold">
+                <span>30000+</span>
+                <span>Free Instals</span>
+            </div>
+        </li>
+    </ul>
+
+</body>
+</html>
